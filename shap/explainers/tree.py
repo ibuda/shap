@@ -1201,7 +1201,7 @@ class CatBoostTreeModelLoader:
         for tree_index in range(self.num_trees):
 
             # load the per-tree params
-            depth = len(self.loaded_cb_model['oblivious_trees'][tree_index]['splits'])
+            # depth = len(self.loaded_cb_model['oblivious_trees'][tree_index]['splits'])
 
             # load the nodes
 
